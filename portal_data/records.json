@@ -1,0 +1,184 @@
+[
+  {
+    "id": "P1",
+    "category": "许可",
+    "title": "A1一般工程许可",
+    "revision": 1,
+    "fields": {
+      "project": "HB-A1",
+      "zones": [
+        "A",
+        "B",
+        "C"
+      ],
+      "methods": [
+        "开挖",
+        "回填",
+        "一般巡检"
+      ],
+      "date": "2026-11-18",
+      "start": 8,
+      "end": 17,
+      "issuer": "项目监理"
+    }
+  },
+  {
+    "id": "P2",
+    "category": "许可",
+    "title": "B区动火许可",
+    "revision": 1,
+    "fields": {
+      "project": "HB-A1",
+      "zones": [
+        "B"
+      ],
+      "methods": [
+        "动火"
+      ],
+      "date": "2026-11-18",
+      "start": 8,
+      "end": 17,
+      "issuer": "项目监理"
+    }
+  },
+  {
+    "id": "S1",
+    "category": "停工",
+    "title": "AB开挖停工",
+    "revision": 1,
+    "fields": {
+      "project": "HB-A1",
+      "zones": [
+        "A",
+        "B"
+      ],
+      "methods": [
+        "开挖"
+      ],
+      "date": "2026-11-18",
+      "start": 8,
+      "end": 17,
+      "issuer": "项目监理"
+    }
+  },
+  {
+    "id": "R1",
+    "category": "复工",
+    "title": "A区部分复工",
+    "revision": 1,
+    "fields": {
+      "target": "S1",
+      "project": "HB-A1",
+      "zones": [
+        "A"
+      ],
+      "methods": [
+        "开挖"
+      ],
+      "start": 9,
+      "end": 15,
+      "issuer": "项目监理"
+    }
+  },
+  {
+    "id": "S2",
+    "category": "停工",
+    "title": "B区动火暂停",
+    "revision": 1,
+    "fields": {
+      "project": "HB-A1",
+      "zones": [
+        "B"
+      ],
+      "methods": [
+        "动火"
+      ],
+      "start": 11,
+      "end": 14,
+      "date": "2026-11-18",
+      "issuer": "项目监理"
+    }
+  },
+  {
+    "id": "R2",
+    "category": "复工",
+    "title": "B区下午动火",
+    "revision": 1,
+    "fields": {
+      "target": "S2",
+      "project": "HB-A1",
+      "zones": [
+        "B"
+      ],
+      "methods": [
+        "动火"
+      ],
+      "start": 13,
+      "end": 14,
+      "issuer": "项目监理"
+    }
+  },
+  {
+    "id": "P9",
+    "category": "许可",
+    "title": "同名A2工程许可",
+    "revision": 1,
+    "fields": {
+      "project": "HB-A2",
+      "zones": [
+        "B"
+      ],
+      "methods": [
+        "开挖"
+      ],
+      "start": 8,
+      "end": 17,
+      "issuer": "项目监理"
+    }
+  },
+  {
+    "id": "R3",
+    "category": "复工",
+    "title": "施工队口头复工纪要",
+    "revision": 1,
+    "fields": {
+      "target": "S1",
+      "project": "HB-A1",
+      "zones": [
+        "B"
+      ],
+      "methods": [
+        "开挖"
+      ],
+      "start": 8,
+      "end": 17,
+      "issuer": "班组长"
+    }
+  },
+  {
+    "id": "NOTE",
+    "category": "说明",
+    "title": "C区噪声时间限制",
+    "revision": 1,
+    "fields": {
+      "project": "HB-A1",
+      "zones": [
+        "C"
+      ],
+      "methods": [
+        "回填"
+      ],
+      "allowed": [
+        [
+          10,
+          12
+        ],
+        [
+          14,
+          16
+        ]
+      ],
+      "issuer": "项目监理"
+    }
+  }
+]

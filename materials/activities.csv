@@ -1,0 +1,5 @@
+id,project,crew,method,zones,start,end,continuous_hours
+J1,HB-A1,土建一,开挖,A|B,8,16,4
+J2,HB-A1,土建一,回填,C,10,14,2
+J3,HB-A1,焊接二,动火,B,8,17,4
+J4,HB-A1,巡检三,一般巡检,A|B|C,8,17,1
