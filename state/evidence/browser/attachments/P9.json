@@ -1,0 +1,18 @@
+{
+  "category": "许可",
+  "fields": {
+    "end": 17,
+    "issuer": "项目监理",
+    "methods": [
+      "开挖"
+    ],
+    "project": "HB-A2",
+    "start": 8,
+    "zones": [
+      "B"
+    ]
+  },
+  "id": "P9",
+  "revision": 1,
+  "title": "同名A2工程许可"
+}

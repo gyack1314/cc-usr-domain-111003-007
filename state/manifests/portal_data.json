@@ -1,0 +1,57 @@
+[
+  {
+    "path": "config.json",
+    "sha256": "aebe573ebc5201fc173b0f3cb1427e36eee9cf212bb71950628b0ece28d29520",
+    "size": 146
+  },
+  {
+    "path": "documents/NOTE.txt",
+    "sha256": "5bbb7e6a4493ca51a9bb1e12d8e098dbcb97914f391ff5cadcac3c28f80bd190",
+    "size": 242
+  },
+  {
+    "path": "documents/P1.txt",
+    "sha256": "dbddba7fe47a22a74db056426eb66d25f9473fc106650286609f347eee63a395",
+    "size": 282
+  },
+  {
+    "path": "documents/P2.txt",
+    "sha256": "1f49731ce9a195250c067ce46d21e8d0c11d730e76f7fd8d042ba9232d08ce0a",
+    "size": 242
+  },
+  {
+    "path": "documents/P9.txt",
+    "sha256": "728065951978586bb248561873f4ca73c0e0b3a781b950867ac047f9ad2ce520",
+    "size": 226
+  },
+  {
+    "path": "documents/R1.txt",
+    "sha256": "eda9a78e830426f40d4cb5423e061721e4cc7e1734dff9e7fffc2285bd96d6ed",
+    "size": 236
+  },
+  {
+    "path": "documents/R2.txt",
+    "sha256": "c6618034967cb57ba5894c923599d69802ca520eda37a37ef92dab96bbcf7200",
+    "size": 237
+  },
+  {
+    "path": "documents/R3.txt",
+    "sha256": "ffad2d2a8604d53fe51d7be9c9cafc1a978784c4a745d8e9acb1fc12f489db4c",
+    "size": 244
+  },
+  {
+    "path": "documents/S1.txt",
+    "sha256": "29173d12119427bb21f3866259ce0b41faaebd9d14476f4728e595caca175a6d",
+    "size": 245
+  },
+  {
+    "path": "documents/S2.txt",
+    "sha256": "d8101b40edd3a4ca2de60dfce2e3df2a7cf58de23f250a7f04a185b83023f2a2",
+    "size": 243
+  },
+  {
+    "path": "records.json",
+    "sha256": "418d479b80cccb1b53797cf4e3ac58923c1f5fb2d5f57034f6806fcac76d9696",
+    "size": 3074
+  }
+]

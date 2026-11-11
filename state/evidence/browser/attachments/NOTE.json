@@ -1,0 +1,26 @@
+{
+  "category": "说明",
+  "fields": {
+    "allowed": [
+      [
+        10,
+        12
+      ],
+      [
+        14,
+        16
+      ]
+    ],
+    "issuer": "项目监理",
+    "methods": [
+      "回填"
+    ],
+    "project": "HB-A1",
+    "zones": [
+      "C"
+    ]
+  },
+  "id": "NOTE",
+  "revision": 1,
+  "title": "C区噪声时间限制"
+}

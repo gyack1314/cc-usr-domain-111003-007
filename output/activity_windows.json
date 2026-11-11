@@ -1,0 +1,482 @@
+{
+  "plan_date": "2026-11-18",
+  "project": "HB-A1",
+  "zone_names": {
+    "A": "桩号0至100",
+    "B": "桩号100至200",
+    "C": "桩号200至300"
+  },
+  "time_convention": "半开区间 [start,end)，相邻端点不冲突；当地时间",
+  "document_validity": {
+    "NOTE": {
+      "admissible": true,
+      "reasons": [],
+      "category": "说明",
+      "ref": "NOTE@519f7b933c460dcc1f9209ea4e2ca3daf29346206f648a11a0f7fde5deabfae3"
+    },
+    "P1": {
+      "admissible": true,
+      "reasons": [],
+      "category": "许可",
+      "ref": "P1@a3e019c6435a9b37c596e477bb285a4e800b576b1478af481261a1ea1c88ffde"
+    },
+    "P2": {
+      "admissible": true,
+      "reasons": [],
+      "category": "许可",
+      "ref": "P2@24db05a5b8437f147274ca3dabace52bde71df3d35798df9f4f30726c74b331f"
+    },
+    "P9": {
+      "admissible": false,
+      "reasons": [
+        "工程编号=HB-A2，本项目为 HB-A1，许可不互通"
+      ],
+      "category": "许可",
+      "ref": "P9@d2b5317cd66d78ced8656e20092815a69f39e3df0a02cf2adfedb141f8d444b6"
+    },
+    "R1": {
+      "admissible": true,
+      "reasons": [
+        "引用链 R1→S1 存在"
+      ],
+      "category": "复工",
+      "ref": "R1@6f9a4233ea3f4d003ccfbdfc88ff621a8db0f4f560e405c34365b1eac43c8a3d"
+    },
+    "R2": {
+      "admissible": true,
+      "reasons": [
+        "引用链 R2→S2 存在"
+      ],
+      "category": "复工",
+      "ref": "R2@36e36b6d18504cc19d15a13229315249e45bc2720bf224c01bb8b31e42e181c7"
+    },
+    "R3": {
+      "admissible": false,
+      "reasons": [
+        "签发人=班组长，非停复工权限（项目监理）",
+        "引用链 R3→S1 存在"
+      ],
+      "category": "复工",
+      "ref": "R3@5db4a4aad58cb0501930edc8959895bf6cbd7d738177d02e719af1769730cfb0"
+    },
+    "S1": {
+      "admissible": true,
+      "reasons": [],
+      "category": "停工",
+      "ref": "S1@864ccaea1d726c70b0bed43ae795a02c072bac01dd423cd1674c9b56c04518f0"
+    },
+    "S2": {
+      "admissible": true,
+      "reasons": [],
+      "category": "停工",
+      "ref": "S2@c9f11e9812384daa12a810f4b07706541c1a3716759a350f32c7d4e0ce0bd2cf"
+    }
+  },
+  "excluded_documents": {
+    "P9": {
+      "admissible": false,
+      "reasons": [
+        "工程编号=HB-A2，本项目为 HB-A1，许可不互通"
+      ],
+      "category": "许可",
+      "ref": "P9@d2b5317cd66d78ced8656e20092815a69f39e3df0a02cf2adfedb141f8d444b6"
+    },
+    "R3": {
+      "admissible": false,
+      "reasons": [
+        "签发人=班组长，非停复工权限（项目监理）",
+        "引用链 R3→S1 存在"
+      ],
+      "category": "复工",
+      "ref": "R3@5db4a4aad58cb0501930edc8959895bf6cbd7d738177d02e719af1769730cfb0"
+    }
+  },
+  "activities": [
+    {
+      "id": "J1",
+      "project": "HB-A1",
+      "crew": "土建一",
+      "method": "开挖",
+      "zones": [
+        "A",
+        "B"
+      ],
+      "plan_window": [
+        8,
+        16
+      ],
+      "continuous_hours": 4,
+      "zone_report": {
+        "A": {
+          "windows": [
+            [
+              9,
+              15
+            ]
+          ],
+          "longest_continuous_hours": 6,
+          "continuous_requirement_hours": 4,
+          "continuous_satisfied": true,
+          "basis": [
+            {
+              "window": [
+                8,
+                16
+              ],
+              "refs": [
+                "P1@a3e019c6435a9b37c596e477bb285a4e800b576b1478af481261a1ea1c88ffde"
+              ],
+              "kind": "许可"
+            },
+            {
+              "window": [
+                9,
+                15
+              ],
+              "refs": [
+                "R1@6f9a4233ea3f4d003ccfbdfc88ff621a8db0f4f560e405c34365b1eac43c8a3d"
+              ],
+              "kind": "复工解除"
+            }
+          ],
+          "blocked": [
+            {
+              "window": [
+                8,
+                9
+              ],
+              "refs": [
+                "S1@864ccaea1d726c70b0bed43ae795a02c072bac01dd423cd1674c9b56c04518f0"
+              ],
+              "reason": "停工未被有效复工解除"
+            }
+          ]
+        },
+        "B": {
+          "windows": [],
+          "longest_continuous_hours": 0,
+          "continuous_requirement_hours": 4,
+          "continuous_satisfied": false,
+          "basis": [
+            {
+              "window": [
+                8,
+                16
+              ],
+              "refs": [
+                "P1@a3e019c6435a9b37c596e477bb285a4e800b576b1478af481261a1ea1c88ffde"
+              ],
+              "kind": "许可"
+            }
+          ],
+          "blocked": [
+            {
+              "window": [
+                8,
+                16
+              ],
+              "refs": [
+                "S1@864ccaea1d726c70b0bed43ae795a02c072bac01dd423cd1674c9b56c04518f0"
+              ],
+              "reason": "停工未被有效复工解除"
+            }
+          ]
+        }
+      },
+      "feasible_zones": [
+        "A"
+      ],
+      "partial_zones": [],
+      "blocked_zones": [
+        "B"
+      ],
+      "verdict": "部分区域/时长可行，原计划无法完整执行",
+      "disposition": "needs_confirmation",
+      "disposition_rules": [
+        "原计划 A+B 开挖不可做：B 区被 S1 整日封锁且无有效复工（R3 签发人无权限）",
+        "A 区 9-15 已由 R1 复工，可在其中安排连续 4 小时；但缩为仅 A 区属更改计划范围，须计划经理调整并经项目监理确认后方可执行",
+        "B 区须等待项目监理签发、明确引用 S1 的复工通知"
+      ]
+    },
+    {
+      "id": "J2",
+      "project": "HB-A1",
+      "crew": "土建一",
+      "method": "回填",
+      "zones": [
+        "C"
+      ],
+      "plan_window": [
+        10,
+        14
+      ],
+      "continuous_hours": 2,
+      "zone_report": {
+        "C": {
+          "windows": [
+            [
+              10,
+              12
+            ]
+          ],
+          "longest_continuous_hours": 2,
+          "continuous_requirement_hours": 2,
+          "continuous_satisfied": true,
+          "basis": [
+            {
+              "window": [
+                10,
+                14
+              ],
+              "refs": [
+                "P1@a3e019c6435a9b37c596e477bb285a4e800b576b1478af481261a1ea1c88ffde"
+              ],
+              "kind": "许可"
+            }
+          ],
+          "blocked": [
+            {
+              "window": [
+                12,
+                14
+              ],
+              "refs": [
+                "NOTE@519f7b933c460dcc1f9209ea4e2ca3daf29346206f648a11a0f7fde5deabfae3"
+              ],
+              "reason": "C区噪声时间限制"
+            }
+          ]
+        }
+      },
+      "feasible_zones": [
+        "C"
+      ],
+      "partial_zones": [],
+      "blocked_zones": [],
+      "verdict": "可按原计划执行",
+      "disposition": "doable",
+      "disposition_rules": [
+        "许可的工程、区域、方法、时间与签发权限均匹配，窗口满足连续性要求"
+      ]
+    },
+    {
+      "id": "J3",
+      "project": "HB-A1",
+      "crew": "焊接二",
+      "method": "动火",
+      "zones": [
+        "B"
+      ],
+      "plan_window": [
+        8,
+        17
+      ],
+      "continuous_hours": 4,
+      "zone_report": {
+        "B": {
+          "windows": [
+            [
+              8,
+              11
+            ],
+            [
+              13,
+              17
+            ]
+          ],
+          "longest_continuous_hours": 4,
+          "continuous_requirement_hours": 4,
+          "continuous_satisfied": true,
+          "basis": [
+            {
+              "window": [
+                8,
+                17
+              ],
+              "refs": [
+                "P2@24db05a5b8437f147274ca3dabace52bde71df3d35798df9f4f30726c74b331f"
+              ],
+              "kind": "许可"
+            },
+            {
+              "window": [
+                13,
+                14
+              ],
+              "refs": [
+                "R2@36e36b6d18504cc19d15a13229315249e45bc2720bf224c01bb8b31e42e181c7"
+              ],
+              "kind": "复工解除"
+            }
+          ],
+          "blocked": [
+            {
+              "window": [
+                11,
+                13
+              ],
+              "refs": [
+                "S2@c9f11e9812384daa12a810f4b07706541c1a3716759a350f32c7d4e0ce0bd2cf"
+              ],
+              "reason": "停工未被有效复工解除"
+            }
+          ]
+        }
+      },
+      "feasible_zones": [
+        "B"
+      ],
+      "partial_zones": [],
+      "blocked_zones": [],
+      "verdict": "可按原计划执行",
+      "disposition": "needs_confirmation",
+      "disposition_rules": [
+        "S2 停工 11-14，R2 仅解除其中 13-14；有效窗口 8-11、13-17",
+        "13-17 由 R2 解除段与 P2 原许可段在端点 14 相接合并，算法上为连续 4 小时；跨文书连续性须项目监理书面确认，未确认前不得动火",
+        "8-11 仅 3 小时，不满足连续 4 小时，不得用零散窗口拼接"
+      ]
+    },
+    {
+      "id": "J4",
+      "project": "HB-A1",
+      "crew": "巡检三",
+      "method": "一般巡检",
+      "zones": [
+        "A",
+        "B",
+        "C"
+      ],
+      "plan_window": [
+        8,
+        17
+      ],
+      "continuous_hours": 1,
+      "zone_report": {
+        "A": {
+          "windows": [
+            [
+              8,
+              17
+            ]
+          ],
+          "longest_continuous_hours": 9,
+          "continuous_requirement_hours": 1,
+          "continuous_satisfied": true,
+          "basis": [
+            {
+              "window": [
+                8,
+                17
+              ],
+              "refs": [
+                "P1@a3e019c6435a9b37c596e477bb285a4e800b576b1478af481261a1ea1c88ffde"
+              ],
+              "kind": "许可"
+            }
+          ],
+          "blocked": []
+        },
+        "B": {
+          "windows": [
+            [
+              8,
+              17
+            ]
+          ],
+          "longest_continuous_hours": 9,
+          "continuous_requirement_hours": 1,
+          "continuous_satisfied": true,
+          "basis": [
+            {
+              "window": [
+                8,
+                17
+              ],
+              "refs": [
+                "P1@a3e019c6435a9b37c596e477bb285a4e800b576b1478af481261a1ea1c88ffde"
+              ],
+              "kind": "许可"
+            }
+          ],
+          "blocked": []
+        },
+        "C": {
+          "windows": [
+            [
+              8,
+              17
+            ]
+          ],
+          "longest_continuous_hours": 9,
+          "continuous_requirement_hours": 1,
+          "continuous_satisfied": true,
+          "basis": [
+            {
+              "window": [
+                8,
+                17
+              ],
+              "refs": [
+                "P1@a3e019c6435a9b37c596e477bb285a4e800b576b1478af481261a1ea1c88ffde"
+              ],
+              "kind": "许可"
+            }
+          ],
+          "blocked": []
+        }
+      },
+      "feasible_zones": [
+        "A",
+        "B",
+        "C"
+      ],
+      "partial_zones": [],
+      "blocked_zones": [],
+      "verdict": "可按原计划执行",
+      "disposition": "doable",
+      "disposition_rules": [
+        "许可的工程、区域、方法、时间与签发权限均匹配，窗口满足连续性要求"
+      ]
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "about": "J3 焊接二 动火",
+      "question": "R2 仅解除 S2 的 13-14 段，B 区动火有效窗口为 8-11 与 13-17；13-17 由 R2 解除段(13-14)与 P2 原许可段(14-17)在端点 14 相接合并而成。算法上满足连续 4 小时，但是否认可跨文书（复工通知+原许可）的连续动火，须项目监理书面确认；不确认则 J3 明日无法连续 4 小时。",
+      "refs": [
+        "P2@24db05a5b8437f147274ca3dabace52bde71df3d35798df9f4f30726c74b331f",
+        "S2@c9f11e9812384daa12a810f4b07706541c1a3716759a350f32c7d4e0ce0bd2cf",
+        "R2@36e36b6d18504cc19d15a13229315249e45bc2720bf224c01bb8b31e42e181c7"
+      ]
+    },
+    {
+      "id": "Q2",
+      "about": "J1 土建一 开挖",
+      "question": "R1 只解除 S1 的 A 区 9-15；B 区开挖整日停工，R3 为班组长签发、无权限解除 S1。若拟将 J1 缩为仅 A 区开挖（9-15 内安排连续 4 小时），属更改作业计划范围，须计划经理调整并经项目监理确认；B 区复工须等待项目监理签发、明确引用 S1 的复工通知。",
+      "refs": [
+        "S1@864ccaea1d726c70b0bed43ae795a02c072bac01dd423cd1674c9b56c04518f0",
+        "R1@6f9a4233ea3f4d003ccfbdfc88ff621a8db0f4f560e405c34365b1eac43c8a3d",
+        "R3@5db4a4aad58cb0501930edc8959895bf6cbd7d738177d02e719af1769730cfb0"
+      ]
+    },
+    {
+      "id": "Q3",
+      "about": "NOTE 适用日期",
+      "question": "C 区噪声时间限制（NOTE）无 date 字段，按常驻限制适用于 11-18 并已据此约束 J2；请项目监理确认该限制在计划日仍然有效。",
+      "refs": [
+        "NOTE@519f7b933c460dcc1f9209ea4e2ca3daf29346206f648a11a0f7fde5deabfae3"
+      ]
+    }
+  ],
+  "crew_conflicts": [
+    {
+      "crew": "土建一",
+      "activities": [
+        "J1",
+        "J2"
+      ],
+      "note": "窗口相交，排班时必须错开，不得同时两处施工"
+    }
+  ]
+}

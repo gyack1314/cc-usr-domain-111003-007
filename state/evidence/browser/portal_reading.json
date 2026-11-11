@@ -1,0 +1,300 @@
+{
+  "base": "http://127.0.0.1:8765",
+  "records": [
+    {
+      "id": "P1",
+      "page_title": "A1一般工程许可",
+      "shown_reference": "P1@a3e019c6435a9b37c596e477bb285a4e800b576b1478af481261a1ea1c88ffde",
+      "attachment_sha256": "a3e019c6435a9b37c596e477bb285a4e800b576b1478af481261a1ea1c88ffde",
+      "attachment_file": "P1.json",
+      "document_file": "P1.txt",
+      "document_sha256": "dbddba7fe47a22a74db056426eb66d25f9473fc106650286609f347eee63a395",
+      "category": "许可",
+      "title_field": "A1一般工程许可",
+      "revision": 1,
+      "fields": {
+        "date": "2026-11-18",
+        "end": 17,
+        "issuer": "项目监理",
+        "methods": [
+          "开挖",
+          "回填",
+          "一般巡检"
+        ],
+        "project": "HB-A1",
+        "start": 8,
+        "zones": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "fields_rendered_on_page": "{\n  \"project\": \"HB-A1\",\n  \"zones\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"methods\": [\n    \"开挖\",\n    \"回填\",\n    \"一般巡检\"\n  ],\n  \"date\": \"2026-11-18\",\n  \"start\": 8,\n  \"end\": 17,\n  \"issuer\": \"项目监理\"\n}"
+    },
+    {
+      "id": "P2",
+      "page_title": "B区动火许可",
+      "shown_reference": "P2@24db05a5b8437f147274ca3dabace52bde71df3d35798df9f4f30726c74b331f",
+      "attachment_sha256": "24db05a5b8437f147274ca3dabace52bde71df3d35798df9f4f30726c74b331f",
+      "attachment_file": "P2.json",
+      "document_file": "P2.txt",
+      "document_sha256": "1f49731ce9a195250c067ce46d21e8d0c11d730e76f7fd8d042ba9232d08ce0a",
+      "category": "许可",
+      "title_field": "B区动火许可",
+      "revision": 1,
+      "fields": {
+        "date": "2026-11-18",
+        "end": 17,
+        "issuer": "项目监理",
+        "methods": [
+          "动火"
+        ],
+        "project": "HB-A1",
+        "start": 8,
+        "zones": [
+          "B"
+        ]
+      },
+      "fields_rendered_on_page": "{\n  \"project\": \"HB-A1\",\n  \"zones\": [\n    \"B\"\n  ],\n  \"methods\": [\n    \"动火\"\n  ],\n  \"date\": \"2026-11-18\",\n  \"start\": 8,\n  \"end\": 17,\n  \"issuer\": \"项目监理\"\n}"
+    },
+    {
+      "id": "S1",
+      "page_title": "AB开挖停工",
+      "shown_reference": "S1@864ccaea1d726c70b0bed43ae795a02c072bac01dd423cd1674c9b56c04518f0",
+      "attachment_sha256": "864ccaea1d726c70b0bed43ae795a02c072bac01dd423cd1674c9b56c04518f0",
+      "attachment_file": "S1.json",
+      "document_file": "S1.txt",
+      "document_sha256": "29173d12119427bb21f3866259ce0b41faaebd9d14476f4728e595caca175a6d",
+      "category": "停工",
+      "title_field": "AB开挖停工",
+      "revision": 1,
+      "fields": {
+        "date": "2026-11-18",
+        "end": 17,
+        "issuer": "项目监理",
+        "methods": [
+          "开挖"
+        ],
+        "project": "HB-A1",
+        "start": 8,
+        "zones": [
+          "A",
+          "B"
+        ]
+      },
+      "fields_rendered_on_page": "{\n  \"project\": \"HB-A1\",\n  \"zones\": [\n    \"A\",\n    \"B\"\n  ],\n  \"methods\": [\n    \"开挖\"\n  ],\n  \"date\": \"2026-11-18\",\n  \"start\": 8,\n  \"end\": 17,\n  \"issuer\": \"项目监理\"\n}"
+    },
+    {
+      "id": "R1",
+      "page_title": "A区部分复工",
+      "shown_reference": "R1@6f9a4233ea3f4d003ccfbdfc88ff621a8db0f4f560e405c34365b1eac43c8a3d",
+      "attachment_sha256": "6f9a4233ea3f4d003ccfbdfc88ff621a8db0f4f560e405c34365b1eac43c8a3d",
+      "attachment_file": "R1.json",
+      "document_file": "R1.txt",
+      "document_sha256": "eda9a78e830426f40d4cb5423e061721e4cc7e1734dff9e7fffc2285bd96d6ed",
+      "category": "复工",
+      "title_field": "A区部分复工",
+      "revision": 1,
+      "fields": {
+        "end": 15,
+        "issuer": "项目监理",
+        "methods": [
+          "开挖"
+        ],
+        "project": "HB-A1",
+        "start": 9,
+        "target": "S1",
+        "zones": [
+          "A"
+        ]
+      },
+      "fields_rendered_on_page": "{\n  \"target\": \"S1\",\n  \"project\": \"HB-A1\",\n  \"zones\": [\n    \"A\"\n  ],\n  \"methods\": [\n    \"开挖\"\n  ],\n  \"start\": 9,\n  \"end\": 15,\n  \"issuer\": \"项目监理\"\n}"
+    },
+    {
+      "id": "S2",
+      "page_title": "B区动火暂停",
+      "shown_reference": "S2@c9f11e9812384daa12a810f4b07706541c1a3716759a350f32c7d4e0ce0bd2cf",
+      "attachment_sha256": "c9f11e9812384daa12a810f4b07706541c1a3716759a350f32c7d4e0ce0bd2cf",
+      "attachment_file": "S2.json",
+      "document_file": "S2.txt",
+      "document_sha256": "d8101b40edd3a4ca2de60dfce2e3df2a7cf58de23f250a7f04a185b83023f2a2",
+      "category": "停工",
+      "title_field": "B区动火暂停",
+      "revision": 1,
+      "fields": {
+        "date": "2026-11-18",
+        "end": 14,
+        "issuer": "项目监理",
+        "methods": [
+          "动火"
+        ],
+        "project": "HB-A1",
+        "start": 11,
+        "zones": [
+          "B"
+        ]
+      },
+      "fields_rendered_on_page": "{\n  \"project\": \"HB-A1\",\n  \"zones\": [\n    \"B\"\n  ],\n  \"methods\": [\n    \"动火\"\n  ],\n  \"start\": 11,\n  \"end\": 14,\n  \"date\": \"2026-11-18\",\n  \"issuer\": \"项目监理\"\n}"
+    },
+    {
+      "id": "R2",
+      "page_title": "B区下午动火",
+      "shown_reference": "R2@36e36b6d18504cc19d15a13229315249e45bc2720bf224c01bb8b31e42e181c7",
+      "attachment_sha256": "36e36b6d18504cc19d15a13229315249e45bc2720bf224c01bb8b31e42e181c7",
+      "attachment_file": "R2.json",
+      "document_file": "R2.txt",
+      "document_sha256": "c6618034967cb57ba5894c923599d69802ca520eda37a37ef92dab96bbcf7200",
+      "category": "复工",
+      "title_field": "B区下午动火",
+      "revision": 1,
+      "fields": {
+        "end": 14,
+        "issuer": "项目监理",
+        "methods": [
+          "动火"
+        ],
+        "project": "HB-A1",
+        "start": 13,
+        "target": "S2",
+        "zones": [
+          "B"
+        ]
+      },
+      "fields_rendered_on_page": "{\n  \"target\": \"S2\",\n  \"project\": \"HB-A1\",\n  \"zones\": [\n    \"B\"\n  ],\n  \"methods\": [\n    \"动火\"\n  ],\n  \"start\": 13,\n  \"end\": 14,\n  \"issuer\": \"项目监理\"\n}"
+    },
+    {
+      "id": "P9",
+      "page_title": "同名A2工程许可",
+      "shown_reference": "P9@d2b5317cd66d78ced8656e20092815a69f39e3df0a02cf2adfedb141f8d444b6",
+      "attachment_sha256": "d2b5317cd66d78ced8656e20092815a69f39e3df0a02cf2adfedb141f8d444b6",
+      "attachment_file": "P9.json",
+      "document_file": "P9.txt",
+      "document_sha256": "728065951978586bb248561873f4ca73c0e0b3a781b950867ac047f9ad2ce520",
+      "category": "许可",
+      "title_field": "同名A2工程许可",
+      "revision": 1,
+      "fields": {
+        "end": 17,
+        "issuer": "项目监理",
+        "methods": [
+          "开挖"
+        ],
+        "project": "HB-A2",
+        "start": 8,
+        "zones": [
+          "B"
+        ]
+      },
+      "fields_rendered_on_page": "{\n  \"project\": \"HB-A2\",\n  \"zones\": [\n    \"B\"\n  ],\n  \"methods\": [\n    \"开挖\"\n  ],\n  \"start\": 8,\n  \"end\": 17,\n  \"issuer\": \"项目监理\"\n}"
+    },
+    {
+      "id": "R3",
+      "page_title": "施工队口头复工纪要",
+      "shown_reference": "R3@5db4a4aad58cb0501930edc8959895bf6cbd7d738177d02e719af1769730cfb0",
+      "attachment_sha256": "5db4a4aad58cb0501930edc8959895bf6cbd7d738177d02e719af1769730cfb0",
+      "attachment_file": "R3.json",
+      "document_file": "R3.txt",
+      "document_sha256": "ffad2d2a8604d53fe51d7be9c9cafc1a978784c4a745d8e9acb1fc12f489db4c",
+      "category": "复工",
+      "title_field": "施工队口头复工纪要",
+      "revision": 1,
+      "fields": {
+        "end": 17,
+        "issuer": "班组长",
+        "methods": [
+          "开挖"
+        ],
+        "project": "HB-A1",
+        "start": 8,
+        "target": "S1",
+        "zones": [
+          "B"
+        ]
+      },
+      "fields_rendered_on_page": "{\n  \"target\": \"S1\",\n  \"project\": \"HB-A1\",\n  \"zones\": [\n    \"B\"\n  ],\n  \"methods\": [\n    \"开挖\"\n  ],\n  \"start\": 8,\n  \"end\": 17,\n  \"issuer\": \"班组长\"\n}"
+    },
+    {
+      "id": "NOTE",
+      "page_title": "C区噪声时间限制",
+      "shown_reference": "NOTE@519f7b933c460dcc1f9209ea4e2ca3daf29346206f648a11a0f7fde5deabfae3",
+      "attachment_sha256": "519f7b933c460dcc1f9209ea4e2ca3daf29346206f648a11a0f7fde5deabfae3",
+      "attachment_file": "NOTE.json",
+      "document_file": "NOTE.txt",
+      "document_sha256": "5bbb7e6a4493ca51a9bb1e12d8e098dbcb97914f391ff5cadcac3c28f80bd190",
+      "category": "说明",
+      "title_field": "C区噪声时间限制",
+      "revision": 1,
+      "fields": {
+        "allowed": [
+          [
+            10,
+            12
+          ],
+          [
+            14,
+            16
+          ]
+        ],
+        "issuer": "项目监理",
+        "methods": [
+          "回填"
+        ],
+        "project": "HB-A1",
+        "zones": [
+          "C"
+        ]
+      },
+      "fields_rendered_on_page": "{\n  \"project\": \"HB-A1\",\n  \"zones\": [\n    \"C\"\n  ],\n  \"methods\": [\n    \"回填\"\n  ],\n  \"allowed\": [\n    [\n      10,\n      12\n    ],\n    [\n      14,\n      16\n    ]\n  ],\n  \"issuer\": \"项目监理\"\n}"
+    }
+  ],
+  "checks": [
+    {
+      "id": "P1",
+      "reference_matches_attachment": true,
+      "id_consistent": true
+    },
+    {
+      "id": "P2",
+      "reference_matches_attachment": true,
+      "id_consistent": true
+    },
+    {
+      "id": "S1",
+      "reference_matches_attachment": true,
+      "id_consistent": true
+    },
+    {
+      "id": "R1",
+      "reference_matches_attachment": true,
+      "id_consistent": true
+    },
+    {
+      "id": "S2",
+      "reference_matches_attachment": true,
+      "id_consistent": true
+    },
+    {
+      "id": "R2",
+      "reference_matches_attachment": true,
+      "id_consistent": true
+    },
+    {
+      "id": "P9",
+      "reference_matches_attachment": true,
+      "id_consistent": true
+    },
+    {
+      "id": "R3",
+      "reference_matches_attachment": true,
+      "id_consistent": true
+    },
+    {
+      "id": "NOTE",
+      "reference_matches_attachment": true,
+      "id_consistent": true
+    }
+  ],
+  "index_title": "分区停复工通知下的施工活动许可窗口",
+  "index_count_text": "共 9 份资料",
+  "all_checks_passed": true
+}

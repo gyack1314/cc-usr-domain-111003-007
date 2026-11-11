@@ -1,0 +1,22 @@
+[
+  {
+    "path": "activities.csv",
+    "sha256": "5a19f8c35a39fe2df30daacd5eb78248cbf6e933e147a1fa76d0174c058beda4",
+    "size": 209
+  },
+  {
+    "path": "policy.md",
+    "sha256": "20bea8f524b8fedcd53112569e7f4a1eb12ba9a00cec55ff65b5788b077d49d0",
+    "size": 421
+  },
+  {
+    "path": "sequence.md",
+    "sha256": "c5da882642742198fc7481fa63a14c3e0ebbc1220959b1212b7731c51c43b736",
+    "size": 128
+  },
+  {
+    "path": "zones.json",
+    "sha256": "762ffbc05fe4e326e7cc517e427839e730a966598c94ad4ec490d2dfbb26e0bd",
+    "size": 71
+  }
+]

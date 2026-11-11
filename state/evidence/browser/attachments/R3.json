@@ -1,0 +1,19 @@
+{
+  "category": "复工",
+  "fields": {
+    "end": 17,
+    "issuer": "班组长",
+    "methods": [
+      "开挖"
+    ],
+    "project": "HB-A1",
+    "start": 8,
+    "target": "S1",
+    "zones": [
+      "B"
+    ]
+  },
+  "id": "R3",
+  "revision": 1,
+  "title": "施工队口头复工纪要"
+}

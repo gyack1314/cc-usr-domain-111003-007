@@ -1,0 +1,19 @@
+{
+  "category": "复工",
+  "fields": {
+    "end": 14,
+    "issuer": "项目监理",
+    "methods": [
+      "动火"
+    ],
+    "project": "HB-A1",
+    "start": 13,
+    "target": "S2",
+    "zones": [
+      "B"
+    ]
+  },
+  "id": "R2",
+  "revision": 1,
+  "title": "B区下午动火"
+}

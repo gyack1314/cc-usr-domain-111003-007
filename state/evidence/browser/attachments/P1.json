@@ -1,0 +1,23 @@
+{
+  "category": "许可",
+  "fields": {
+    "date": "2026-11-18",
+    "end": 17,
+    "issuer": "项目监理",
+    "methods": [
+      "开挖",
+      "回填",
+      "一般巡检"
+    ],
+    "project": "HB-A1",
+    "start": 8,
+    "zones": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "id": "P1",
+  "revision": 1,
+  "title": "A1一般工程许可"
+}

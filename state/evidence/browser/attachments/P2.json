@@ -1,0 +1,19 @@
+{
+  "category": "许可",
+  "fields": {
+    "date": "2026-11-18",
+    "end": 17,
+    "issuer": "项目监理",
+    "methods": [
+      "动火"
+    ],
+    "project": "HB-A1",
+    "start": 8,
+    "zones": [
+      "B"
+    ]
+  },
+  "id": "P2",
+  "revision": 1,
+  "title": "B区动火许可"
+}

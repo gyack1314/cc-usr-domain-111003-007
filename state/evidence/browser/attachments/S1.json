@@ -1,0 +1,20 @@
+{
+  "category": "停工",
+  "fields": {
+    "date": "2026-11-18",
+    "end": 17,
+    "issuer": "项目监理",
+    "methods": [
+      "开挖"
+    ],
+    "project": "HB-A1",
+    "start": 8,
+    "zones": [
+      "A",
+      "B"
+    ]
+  },
+  "id": "S1",
+  "revision": 1,
+  "title": "AB开挖停工"
+}

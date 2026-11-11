@@ -1,0 +1,19 @@
+{
+  "category": "停工",
+  "fields": {
+    "date": "2026-11-18",
+    "end": 14,
+    "issuer": "项目监理",
+    "methods": [
+      "动火"
+    ],
+    "project": "HB-A1",
+    "start": 11,
+    "zones": [
+      "B"
+    ]
+  },
+  "id": "S2",
+  "revision": 1,
+  "title": "B区动火暂停"
+}

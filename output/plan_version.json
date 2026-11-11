@@ -1,0 +1,19 @@
+{
+  "plan_version": "2026-11-18-v1",
+  "activity_windows": {
+    "path": "output/activity_windows.json",
+    "sha256": "10ed1ccfad09d1c2f91a18ca75ed2f553a0e8ccf0feaef8b6efc17c21d4671c9"
+  },
+  "schedule": {
+    "path": "output/schedule_2026-11-18.md",
+    "sha256": "df736a6f73fee67d6d11cf4cf6bc5b0452f5311508c109b00983ebdedc63777c"
+  },
+  "materials_manifest": "state/manifests/materials.json",
+  "portal_data_manifest": "state/manifests/portal_data.json",
+  "draft": {
+    "key": "precheck-2026-11-18-windows",
+    "portal_version": 1,
+    "status": "待人工审批"
+  },
+  "note": "源资料摘要若变化，门户保存修订将返回409，旧结论不自动获得新证据（见 docs/operations.md）"
+}
